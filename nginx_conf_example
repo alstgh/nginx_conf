@@ -51,7 +51,7 @@ http {
     }
   }
 
-  upstream big_server_com {
+  upstream big_server_com {          ### servers and parameters
     server 127.0.0.3:8000 weight=5;
     server 127.0.0.3:8001 weight=5;
     server 192.168.0.1:8000;
